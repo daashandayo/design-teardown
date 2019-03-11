@@ -1,0 +1,30 @@
+/*================
+Nav
+==================*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color:  #ccc;
+    height: 10em;
+    padding: 1em 0;
+}
+.nav-Links {
+    width: 14.28%;
+    height: 8em;
+    border: 7px solid  #ccc;
+    float: left;
+    background-color: darkgrey;
+}
+
+/*========================
+body
+========================*/
+.recent-article {
+    float: left;
+    width: 50%;
+    height: 25em;
+    border: .01em solid black;
+    background-color: darkgrey;
+}
