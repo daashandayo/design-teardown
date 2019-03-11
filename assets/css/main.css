@@ -24,7 +24,38 @@ body
 .recent-article {
     float: left;
     width: 50%;
-    height: 25em;
+    height: 40em;
     border: .01em solid black;
     background-color: darkgrey;
+    padding: 10% auto;
+}
+
+.recent-article div {
+    background-color: green;
+}
+
+.recent-article div:first-child {
+    width: 80%;
+    height: 5em;
+    margin: 15em auto 2em;
+}
+
+.recent-article div:last-child {
+    width: 80%;
+    height: 8em;
+    margin: 2em auto;
+}
+
+section {
+    position: relative;
+}
+
+section h2 {
+    position: absolute;
+    width: 40%;
+    height: 5em;
+    left: 30%;
+    top: 3em;
+    z-index: 999;
+    background-color: green;
 }
