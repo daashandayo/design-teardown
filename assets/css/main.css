@@ -1,103 +1,109 @@
 /*================
 Nav
 ==================*/
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 nav {
-    background-color:  #ccc;
-    height: 10em;
-    padding: 1em 0;
+  background-color: #ccc;
+  height: 10em;
+  padding: 1em 0;
 }
 .nav-Links {
-    width: 14.28%;
-    height: 8em;
-    border: 7px solid  #ccc;
-    float: left;
-    background-color: darkgrey;
+  width: 14.28%;
+  height: 8em;
+  border: 7px solid #ccc;
+  float: left;
+  background-color: darkgrey;
 }
 
 /*========================
 body
 ========================*/
 .recent-articles {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .recent-article {
-    float: left;
-    width: 50%;
-    height: 40em;
-    border: .01em solid black;
-    background-color: darkgrey;
-    padding: 10% auto;
+  float: left;
+  width: 50%;
+  height: 40em;
+  border: 0.01em solid black;
+  background-color: darkgrey;
+  padding: 10% auto;
 }
 
 .recent-article div {
-    background-color: grey;
+  background-color: grey;
 }
 
 .recent-article div:first-child {
-    width: 80%;
-    height: 5em;
-    margin: 15em auto 2em;
+  width: 80%;
+  height: 5em;
+  margin: 15em auto 2em;
 }
 
 .recent-article div:last-child {
-    width: 80%;
-    height: 8em;
-    margin: 2em auto;
+  width: 80%;
+  height: 8em;
+  margin: 2em auto;
 }
 
 .recent-articles h2 {
-    position: absolute;
-    width: 40%;
-    height: 5em;
-    left: 30%;
-    top: 3em;
-    z-index: 999;
-    background-color: gray;
+  position: absolute;
+  width: 40%;
+  height: 5em;
+  left: 30%;
+  top: 3em;
+  z-index: 999;
+  background-color: gray;
+}
+
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
 }
 
 .latest-articles {
-    float: left;
-    width: 33.3%;
-    height: 30em;
-    border: 1px solid black;
-    padding: 2em 2em 10em;
-}
-
-.latest-articles::after {
-    clear: left;
+  float: left;
+  width: 33.3%;
+  height: 30em;
+  border: 1px solid black;
+  padding: 2em 2em 10em;
 }
 
 .latest-articles h3,
 .ads h3 {
-    font-size: 2em;
-    font-family: 'Itim', cursive;
-    margin-bottom: 1em;
+  font-size: 2em;
+  font-family: "Itim", cursive;
+  margin-bottom: 1em;
 }
 
 .latest-articles p,
 .ads p {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .ad-article {
-    float: left;
-    width: 25%;
-    height: 30em;
-    border: 1px solid black;
-    margin-top: 2em;
-    padding: 2em 2em 10em;
+  float: left;
+  width: 25%;
+  height: 30em;
+  border: 1px solid black;
+  margin-top: 2em;
+  padding: 2em 2em 10em;
 }
 .ad {
-    float: left;
-    width: 50%;
-    height: 30em;
-    border: 1px solid black;
-    margin-top: 2em;
-    background-color: darkgray;
+  float: left;
+  width: 50%;
+  height: 30em;
+  border: 1px solid black;
+  margin-top: 2em;
+  background-color: darkgray;
 }
