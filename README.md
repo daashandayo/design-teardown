@@ -13,3 +13,4 @@ This project emphasizes the need to think in terms of visual hierarchy, typograp
 ## Contributors
 
 * Darshan - [Github Profile](https://github.com/daashandayo)
+* Raphael - [Github Profile](https://github.com/oghenebrume50)
